@@ -1,0 +1,448 @@
+<!doctype html>
+<html ⚡ lang="id-ID">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#000000">
+  <link rel="shortcut icon" href="https://thestrategicmama.com/assets/top5toto-favicon.webp">
+  <link rel="apple-touch-icon" href="https://thestrategicmama.com/assets/top5toto-favicon.webp">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>TOP5TOTO — The Strategic House of Toto Asia</title>
+  <meta name="description" content="TOP5TOTO menghadirkan pengalaman Toto Asia yang terarah, modern, dan mudah diakses, didukung informasi yang jelas serta identitas kuat sebagai Strategic House.">
+  <meta name="language" content="id-ID">
+  <meta name="author" content="TOP5TOTO"> 
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:title" content="TOP5TOTO — The Strategic House of Toto Asia">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="TOP5TOTO menghadirkan pengalaman Toto Asia yang terarah, modern, dan mudah diakses, didukung informasi yang jelas serta identitas kuat sebagai Strategic House.">
+  <meta property="og:image" content="https://thestrategicmama.com/assets/hero-top5toto.webp">
+  <meta property="og:url" content="https://thestrategicmama.com/">
+  <link rel="canonical" href="https://thestrategicmama.com/">
+  <link rel="alternate" href="https://thestrategicmama.com/" hreflang="id" />
+<style amp-boilerplate>
+  body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}
+  @-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  @-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  @-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  @-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  @keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+</style>
+<noscript>
+  <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+</noscript>
+
+<style amp-custom>
+
+:root {
+  --gold: #FFD700;
+  --gold-dim: #FFB700;
+  --blue: #FFD700;
+  --blue-dim: #D9A405;
+  --dark: #000000;
+  --dark-card: #0a0a0a;
+  --border: rgba(255, 183, 0, 0.42);
+  --text: #FFFFFF;
+  --text-dim: #C7C7C7;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  background: var(--dark);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.hero-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(ellipse at bottom, #1a1400 0%, #080600 60%, #000000 100%);
+  overflow: hidden;
+}
+
+.stars-container {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(1.5px 1.5px at 20px 30px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 40px 70px, #FFD700, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 90px 40px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 160px 120px, #FFB700, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 230px 190px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 300px 80px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 350px 240px, #ffaa00, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 350px 350px;
+  opacity: 0.6;
+}
+
+.meteor {
+  position: absolute;
+  height: 2px;
+  background: linear-gradient(-45deg, #ff3333, rgba(255, 255, 255, 0));
+  filter: drop-shadow(0 0 8px #ff0000);
+  border-radius: 999px;
+  animation: meteorTail 3s ease-in-out infinite, meteorShoot 3s ease-in-out infinite;
+  opacity: 0;
+}
+
+@keyframes meteorTail {
+  0% { width: 0; }
+  30% { width: 120px; }
+  100% { width: 0; }
+}
+
+@keyframes meteorShoot {
+  0% {
+    transform: translateX(0) translateY(0) rotate(-40deg);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-800px) translateY(680px) rotate(-40deg);
+    opacity: 0;
+  }
+}
+
+.meteor:nth-child(1) { top: -10%; right: 10%; animation-delay: 0s; animation-duration: 2.5s; }
+.meteor:nth-child(2) { top: 10%; right: 30%; animation-delay: 1.2s; animation-duration: 3s; }
+.meteor:nth-child(3) { top: -5%; right: 55%; animation-delay: 2.5s; animation-duration: 2.2s; }
+.meteor:nth-child(4) { top: 25%; right: 5%; animation-delay: 3.8s; animation-duration: 3.2s; }
+.meteor:nth-child(5) { top: 15%; right: 75%; animation-delay: 0.7s; animation-duration: 2.8s; }
+.meteor:nth-child(6) { top: -15%; right: 40%; animation-delay: 4.5s; animation-duration: 2.4s; }
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 3px,
+      rgba(255, 183, 0, 0.03) 3px,
+      rgba(255, 183, 0, 0.03) 4px
+    );
+  pointer-events: none;
+}
+
+.overlay {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 16px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--dark-card);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 30px rgba(255, 183, 0, 0.16);
+}
+
+.topbar {
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+.topbar img {
+  height: 50px;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 0 5px #000000);
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  border-top: 5px double #FFD700;
+  border-bottom: 5px double #FFD700;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+.titlebar {
+  padding: 11px 16px;
+  text-align: center;
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: var(--gold);
+  text-transform: uppercase;
+  background: #000000;
+  border-bottom: 1px solid var(--border);
+  text-shadow: 0 0 10px rgba(255, 183, 0, 0.45);
+}
+
+.content {
+  padding: 16px;
+  background: linear-gradient(0deg, black, #000000);
+}
+
+.btns {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.btn {
+  flex: 1;
+  height: 46px;
+  line-height: 44px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Orbitron', monospace;
+  font-weight: 800;
+  border-radius: 8px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.btn-daftar {
+  background: linear-gradient(180deg, #FFE55C 0%, #FFD700 35%, #FFB700 72%, #DAA520 100%);
+  color: #111111;
+  border: 2px solid #D9A405;
+  cursor: pointer;
+  animation: glowPulse 1.5s infinite ease-in-out;
+  transition: transform 0.2s;
+}
+
+.btn-daftar:hover {
+  transform: scale(1.08);
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 183, 0, 0.45),
+                0 0 10px rgba(255, 215, 0, 0.30);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.75),
+                0 0 40px rgba(255, 183, 0, 0.48);
+    transform: scale(1.05);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(255, 183, 0, 0.45),
+                0 0 10px rgba(255, 215, 0, 0.30);
+    transform: scale(1);
+  }
+}
+
+.btn-login {
+  background: #000000;
+  border: 2px solid #D9A405;
+  color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(255, 183, 0, 0.18);
+}
+
+.info {
+  background: #000000;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  width: 45%;
+  color: var(--gold-dim);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.value {
+  width: 55%;
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.stat-badge {
+  background: #000000;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stat-label {
+  font-family: 'Orbitron', monospace;
+  font-size: 9px;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.stat-value {
+  font-family: 'Orbitron', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFD700;
+}
+
+.footer {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Orbitron', monospace;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 183, 0, 0.22);
+}
+
+.footer .copyright {
+  color: #878787;
+}
+
+.footer .copyright a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer .copyright a:hover {
+  color: #FFE55C;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero-bg">
+  <div class="stars-container"></div>
+  <div class="meteor"></div>
+  <div class="meteor"></div>
+  <div class="meteor"></div>
+  <div class="meteor"></div>
+  <div class="meteor"></div>
+  <div class="meteor"></div>
+</div>
+
+<div class="scanlines"></div>
+
+<div class="overlay">
+  <div class="card">
+    <div class="topbar">
+      <img src="https://thestrategicmama.com/assets/top5toto-logo.webp" alt="TOP5TOTO LOGO">
+    </div>
+
+    <div class="banner">
+      <img src="https://thestrategicmama.com/assets/hero-top5toto.webp" alt="TOP5TOTO">
+    </div>
+
+    <div class="titlebar">
+      TOP5TOTO — The Strategic House of Toto Asia
+    </div>
+
+    <div class="btns">
+      <a href="https://mainkanterus.me/top5toto" class="btn btn-daftar">KLIK UNTUK DAFTAR</a>
+      <a href="https://www.mainlahlangsung.com/top5toto" class="btn btn-login">KLIK UNTUK LOGIN</a>
+      <a href="https://access-center.pages.dev/top5toto" class="btn btn-login">PREDIKSI TOGEL TOP5TOTO</a>
+    </div>
+
+    <div class="content">
+      <div class="stats-grid">
+        <div class="stat-badge">
+          <span class="stat-label">RATING</span>
+          <span class="stat-value">⭐⭐⭐⭐⭐</span>
+        </div>
+        <div class="stat-badge">
+          <span class="stat-label">DEPO</span>
+          <span class="stat-value">1 RIBU</span>
+        </div>
+        <div class="stat-badge">
+          <span class="stat-label">WIN RATE</span>
+          <span class="stat-value">99%</span>
+        </div>
+        <div class="stat-badge">
+          <span class="stat-label">WEDE</span>
+          <span class="stat-value">25 RIBU</span>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="row">
+          <div class="label">Nama Situs</div>
+          <div class="value">TOP5TOTO</div>
+        </div>
+        <div class="row">
+          <div class="label">Min Betting</div>
+          <div class="value">Rp 1 perak</div>
+        </div>
+        <div class="row">
+          <div class="label">Layanan</div>
+          <div class="value">24 Jam Nonstop</div>
+        </div>
+        <div class="row">
+          <div class="label">Deposit</div>
+          <div class="value">QRIS, EWALLET, BANK LOKAL</div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="copyright">
+          <strong>&copy; 2026 <a href="https://access-center.pages.dev/top5toto">TOP5TOTO</a> | Suaymak</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
